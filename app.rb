@@ -4,7 +4,7 @@ class App < Sinatra::Base
   set :bind, "0.0.0.0"
 
   get '/' do
-    'Sinatra is working!'
+    'Hello from Violet App! Just a random name ;)'
   end
 end
 
